@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:b026ff,100:b026ff&height=200&section=header&text=akibbv&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=CS%20Student&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:b026ff,100:b026ff&height=200&section=header&text=Mahmud%20Bin%20Sayeed&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=CS%20Student,%20BRAC%20University&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=B026FF&center=true&vCenter=true&width=600&lines=CS+Student;Java+%7C+Python+Developer;Data+Structures+%26+Algorithms;Exploring+AI+Tools+for+Learning" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=B026FF&center=true&vCenter=true&width=600&lines=CS+Student,+BRAC+University;Java+%7C+Python+Developer;Data+Structures+%26+Algorithms;Exploring+AI+Tools+for+Learning" alt="Typing SVG" />
 </a>
 
 <img src="https://img.shields.io/badge/Open%20to%20Work-Yes-b026ff?style=for-the-badge&labelColor=0b1120" alt="Open to Work"/>
@@ -18,7 +18,7 @@
 ### 🧠 Who I Am
 
 ```typescript
-const Mahmud Bin Sayeed = {
+const akibbv = {
   title: "CS Student, BRAC University",
   stack: {
     languages: ["Java", "Python"],
