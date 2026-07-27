@@ -18,7 +18,7 @@
 ### 🧠 Who I Am
 
 ```typescript
-const akibbv = {
+const Mahmud Bin Sayeed = {
   title: "CS Student",
   stack: {
     languages: ["Java", "Python"],
