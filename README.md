@@ -19,7 +19,7 @@
 
 ```typescript
 const Mahmud Bin Sayeed = {
-  title: "CS Student",
+  title: "CS Student, BRAC University",
   stack: {
     languages: ["Java", "Python"],
     frontend: ["HTML", "CSS"],
