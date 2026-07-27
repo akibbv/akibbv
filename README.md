@@ -13,11 +13,11 @@
         :root {
             --bg-color: #0f172a;
             --card-bg: rgba(30, 41, 59, 0.85); /* Semi-transparent cards */
-            --text-primary: #f8fafc;
-            --text-secondary: #94a3b8;
+            --text-primary: #ffffff; /* Updated to pure white */
+            --text-secondary: #e2e8f0; /* Updated to brighter white/light gray for readability */
             --accent: #38bdf8;
             --accent-glow: rgba(56, 189, 248, 0.15);
-            --border: #334155;
+            --border: #475569;
         }
 
         * {
@@ -81,6 +81,7 @@
             font-size: 3rem;
             font-weight: 700;
             letter-spacing: -0.025em;
+            color: #ffffff;
         }
 
         h1 span {
@@ -101,6 +102,7 @@
             border-right: 2px solid var(--accent);
             white-space: nowrap;
             animation: blink 0.75s step-end infinite;
+            color: #ffffff;
         }
 
         @keyframes blink {
@@ -146,6 +148,7 @@
             display: flex;
             align-items: center;
             gap: 0.75rem;
+            color: #ffffff;
         }
 
         h2 i {
@@ -176,7 +179,7 @@
         .card h3 {
             font-size: 1.1rem;
             margin-bottom: 0.75rem;
-            color: var(--text-primary);
+            color: #ffffff;
         }
 
         .card p {
@@ -193,7 +196,7 @@
 
         .tech-tag {
             background-color: rgba(15, 23, 42, 0.6);
-            color: var(--text-secondary);
+            color: #ffffff;
             padding: 0.3rem 0.6rem;
             border-radius: 6px;
             font-size: 0.8rem;
@@ -373,12 +376,12 @@
             let typeSpeed = isDeleting ? 40 : 80;
 
             if (!isDeleting && charIndex === currentWord.length) {
-                typeSpeed = 2000; // Pause at end of word
+                typeSpeed = 2000; 
                 isDeleting = true;
             } else if (isDeleting && charIndex === 0) {
                 isDeleting = false;
                 wordIndex = (wordIndex + 1) % words.length;
-                typeSpeed = 500; // Pause before next word
+                typeSpeed = 500; 
             }
 
             setTimeout(typeEffect, typeSpeed);
